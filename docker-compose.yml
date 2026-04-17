@@ -16,3 +16,5 @@ services:
       NEKO_ICELITE: 1
       # limit to a single user at a time
       NEKO_MAX_CONNECTIONS: 1
+      # keep the browser from going idle
+      NEKO_IDLE_TIMEOUT: 0
