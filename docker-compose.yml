@@ -18,3 +18,5 @@ services:
       NEKO_MAX_CONNECTIONS: 1
       # keep the browser from going idle
       NEKO_IDLE_TIMEOUT: 0
+      # mute by default on join
+      NEKO_MUTE: 1
