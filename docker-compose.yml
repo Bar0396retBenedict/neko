@@ -22,3 +22,5 @@ services:
       NEKO_MUTE: 1
       # file transfer disabled - not needed for personal use
       NEKO_FILE_TRANSFER_ENABLED: 0
+      # lock keyboard/mouse control by default; viewer-only until explicitly granted
+      NEKO_CONTROL_PROTECTION: 1
