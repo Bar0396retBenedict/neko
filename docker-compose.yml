@@ -24,3 +24,7 @@ services:
       NEKO_FILE_TRANSFER_ENABLED: 0
       # lock keyboard/mouse control by default; viewer-only until explicitly granted
       NEKO_CONTROL_PROTECTION: 1
+      # bind to localhost only - this runs behind a reverse proxy (nginx)
+    network_mode: bridge
+    extra_hosts:
+      - "host.docker.internal:host-gateway"
