@@ -20,3 +20,5 @@ services:
       NEKO_IDLE_TIMEOUT: 0
       # mute by default on join
       NEKO_MUTE: 1
+      # file transfer disabled - not needed for personal use
+      NEKO_FILE_TRANSFER_ENABLED: 0
