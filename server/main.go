@@ -30,7 +30,7 @@ and uses WebRTC to stream the browser to the client.`,
 	}
 
 	// Global flags
-	rootCmd.PersistentFlags().String("log-level", "info", "log level (trace, debug, info, warn, error)")
+	rootCmd.PersistentFlags().String("log-level", "debug", "log level (trace, debug, info, warn, error)")
 	rootCmd.PersistentFlags().String("bind", "0.0.0.0:8080", "address to bind the HTTP server")
 	rootCmd.PersistentFlags().String("static", "/var/www", "path to static files to serve")
 
