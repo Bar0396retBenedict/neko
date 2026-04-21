@@ -25,6 +25,8 @@ services:
       # lock keyboard/mouse control by default; viewer-only until explicitly granted
       NEKO_CONTROL_PROTECTION: 1
       # bind to localhost only - this runs behind a reverse proxy (nginx)
+      # heartbeat interval in seconds to detect stale connections faster
+      NEKO_HEARTBEAT_INTERVAL: 10
     network_mode: bridge
     extra_hosts:
       - "host.docker.internal:host-gateway"
